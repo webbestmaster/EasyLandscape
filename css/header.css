@@ -1,3 +1,23 @@
-.navigation{
+.logo {
+  margin: 15px;
+}
+
+.navigation {
   float: right;
+  height: 130px;
+  margin: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #4D4D4D;
+  padding: 15px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.billboard {
+  background-image: url(../images/billboard.jpg);
 }
