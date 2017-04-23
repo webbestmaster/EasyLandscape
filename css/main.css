@@ -1,0 +1,32 @@
+@import url(reset.css);
+@import url(style.css);
+@import url(header.css);
+@import url(content.css);
+@import url(stats.css);
+@import url(contacts.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: PlayfairDisplay Regular;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay BoldItalic;
+    src: url(../fonts/playfair-display/PlayfairDisplay-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: PlayfairDisplay Bold;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: WorkSans Regular;
+    src: url(../fonts/work-sans/WorkSans-Regular.otf);
+}
+
+@font-face {
+    font-family: WorkSans Medium;
+    src: url(../fonts/work-sans/WorkSans-Medium.otf);
+}
