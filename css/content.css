@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.icon {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.con-title {
+    font: 22px 'OpenSans Bold', sans-serif;
+    margin-top: 40px;
+}
+
+.con-text {
+    font: 14px 'OpenSans Regular', sans-serif;
+    margin: 40px 0 100px;
+}
