@@ -4,7 +4,8 @@ footer {
 
 .footer-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 97px 0 88px;
 }
 
 .footer-title {
@@ -15,10 +16,16 @@ footer {
 .footer-location, .footer-company, .footer-support, .footer-minima {
     color: #ffffff;
     text-align: center;
+    width: 238px;
+}
+
+.footer-title {
+    margin-bottom: 23px;
 }
 
 .footer-link {
     text-decoration: none;
     color: #ffffff;
     display: block;
+    margin-bottom: 14px;
 }
