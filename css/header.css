@@ -25,7 +25,9 @@ header {
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    border-bottom: 1px solid #4D4D4D;
+    margin-bottom: 3px;
 }
 
 .billboard {

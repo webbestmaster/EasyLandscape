@@ -47,6 +47,7 @@
 .recent-work {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .recent-work1, .recent-work2, .recent-work3, .recent-work4 {
@@ -68,4 +69,42 @@
 
 .recent-work4 {
     background-image: url(../images/rec_w4.jpg);
+}
+
+.recent-title {
+    font: 20px 'OpenSans BoldItalic';
+    color: #D2D1D1;
+    margin-top: 140px;
+    font-style: italic;
+}
+
+.recent-text {
+    color: #D2D1D1;
+}
+
+.subscribe {
+    background-color: #F5F5F5;
+    padding: 94px;
+}
+
+.subscribers-title {
+    font: 30px 'OpenSans Semibold', sans-serif;
+    color: #4D4D4D;
+    text-transform: uppercase;
+}
+
+.subscribers-text {
+    font: 14px 'OpenSans Regular', sans-serif;
+    color: #717171;
+    margin: 25px 0 49px;
+}
+
+.subscribe-button{
+    font: 16px 'OpenSans Bold', sans-serif;
+    color: #4D4D4D;
+    border: 2px solid #4D4D4D;
+    border-radius: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 42px;
 }
