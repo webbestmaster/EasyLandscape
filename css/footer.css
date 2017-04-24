@@ -11,3 +11,14 @@ footer {
     font: 18px 'OpenSans Semibold', sans-serif;
     color: #ffffff;
 }
+
+.footer-location, .footer-company, .footer-support, .footer-minima {
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
