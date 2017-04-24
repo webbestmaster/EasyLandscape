@@ -11,10 +11,61 @@
 
 .con-title {
     font: 22px 'OpenSans Bold', sans-serif;
-    margin-top: 40px;
+    margin-top: 32px;
+    font-weight: bold;
+    color: #4D4D4D;
 }
 
 .con-text {
     font: 14px 'OpenSans Regular', sans-serif;
-    margin: 40px 0 100px;
+    margin: 34px 0 100px;
+}
+
+.container {
+    text-align: center;
+
+}
+
+.container-title {
+    font: 30px 'OpenSans Bold', sans-serif;
+    text-transform: uppercase;
+    margin-top: 82px;
+    color: #4D4D4D;
+}
+
+.container-text {
+    font: 16px 'OpenSans Bold', sans-serif;
+    margin: 13px 0 100px;
+}
+
+.title-recent-work {
+    font: 30px 'OpenSans Semibold', sans-serif;
+    margin: 89px 0 100px;
+    color: #4D4D4D;
+}
+
+.recent-work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-work1, .recent-work2, .recent-work3, .recent-work4 {
+    width: 262px;
+    height: 320px;
+}
+
+.recent-work1 {
+    background-image: url(../images/rec_w1.jpg);
+}
+
+.recent-work2 {
+    background-image: url(../images/rec_w2.jpg);
+}
+
+.recent-work3 {
+    background-image: url(../images/rec_w3.jpg);
+}
+
+.recent-work4 {
+    background-image: url(../images/rec_w4.jpg);
 }
