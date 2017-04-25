@@ -14,6 +14,7 @@
     margin-top: 32px;
     font-weight: bold;
     color: #4D4D4D;
+    letter-spacing: 0.5px;
 }
 
 .con-text {
@@ -31,6 +32,7 @@
     text-transform: uppercase;
     margin-top: 82px;
     color: #4D4D4D;
+    letter-spacing: 0.9px;
 }
 
 .container-text {
@@ -54,26 +56,25 @@
 .recent-work1, .recent-work2, .recent-work3, .recent-work4 {
     width: 262px;
     height: 320px;
+    display: block;
+    position: relative;
+    text-decoration: none;
 }
 
 .recent-work1 {
     background-image: url(../images/rec_w1.jpg);
-    cursor: pointer;
 }
 
 .recent-work2 {
     background-image: url(../images/rec_w2.jpg);
-    cursor: pointer;
 }
 
 .recent-work3 {
     background-image: url(../images/rec_w3.jpg);
-    cursor: pointer;
 }
 
 .recent-work4 {
     background-image: url(../images/rec_w4.jpg);
-    cursor: pointer;
 }
 
 .recent-work1:hover .brand-project-1, .recent-work2:hover .brand-project-2, .recent-work3:hover .brand-project-3, .recent-work4:hover .brand-project-4{
@@ -95,13 +96,14 @@
     text-decoration: none;
     color: #ffffff;
     font: 16px 'OpenSans Semibold', sans-serif;
-    display: inline-block;
     background-color: #575757;
     height: 60px;
     line-height: 60px;
     width: 262px;
     margin-top: 81px;
     visibility: hidden;
+    position: absolute;
+    bottom: 0;
 }
 
 .subscribe {
@@ -121,10 +123,12 @@
     font: 14px 'OpenSans Regular', sans-serif;
     color: #717171;
     margin: 25px 0 49px;
+    letter-spacing: 0.9px;
 }
 
 .subscribe-button{
     font: 16px 'OpenSans Bold', sans-serif;
+    font-weight: bold;
     color: #4D4D4D;
     border: 2px solid #4D4D4D;
     border-radius: 30px;
@@ -132,4 +136,8 @@
     display: inline-block;
     padding: 14px 42px;
     text-decoration: none;
+}
+
+.subscribe-button:hover {
+    background-color: #55ACEE;
 }

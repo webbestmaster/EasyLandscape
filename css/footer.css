@@ -3,9 +3,27 @@
     margin: 67px 0 68px;
 }
 
+.soc-fb {
+    background-image: url(../images/soc_fb.png);
+}
+
+.soc-twt {
+    background-image: url(../images/soc_twt.png);
+}
+
+.soc-drb {
+    background-image: url(../images/soc_drb.png);
+}
+
+.soc-ggp {
+    background-image: url(../images/soc_ggp.png);
+}
+
 .soc-link {
     display: inline-block;
     height: 66px;
+    background-repeat: no-repeat;
+    background-position: center center;
     line-height: 66px;
     width: 66px;
     border: 2px solid #4D4D4D;
@@ -46,11 +64,14 @@ footer {
     color: #ffffff;
     display: block;
     margin-bottom: 14px;
+    border-bottom: 1px solid transparent;
+    float: left;
+    clear: both;
+    font: 14px 'OpenSans Regular', sans-serif;
 }
 
 .footer-link:hover {
-    border-bottom: 1px solid #ffffff;
-    margin-top: 5px;
+    border-bottom-color: #ffffff;
 }
 
 .footer-location, .footer-minima {
@@ -69,4 +90,8 @@ footer {
 .footer-text-down {
     margin-top: 12px;
     display: inline-block;
+}
+
+.footer-text, .footer-text-down {
+    font: 14px 'OpenSans Regular', sans-serif;
 }

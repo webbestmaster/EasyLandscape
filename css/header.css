@@ -40,11 +40,13 @@ header {
 
 .title {
     font: 50px 'Satellite Regular', sans-serif;
+    letter-spacing: -0.5px;
 }
 
 .text {
     font: 16px 'OpenSans Regular', sans-serif;
     margin-top: 18px;
+    letter-spacing: 1.2px;
 }
 
 .button {
@@ -56,6 +58,10 @@ header {
     border-radius: 30px;
     margin-top: 38px;
     text-decoration: none;
+}
+
+.button:hover {
+    background-color: #55ACEE;
 }
 
 .button:hover {
