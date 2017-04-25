@@ -23,7 +23,7 @@
 
 .container {
     text-align: center;
-
+    border-top: 1px solid #E7E7E7;
 }
 
 .container-title {
@@ -59,6 +59,10 @@
     background-image: url(../images/rec_w1.jpg);
 }
 
+.recent-work1:hover .brand-project-1, .recent-work2:hover .brand-project-2, .recent-work3:hover .brand-project-3, .recent-work4:hover .brand-project-4{
+    visibility: visible;
+}
+
 .recent-work2 {
     background-image: url(../images/rec_w2.jpg);
 }
@@ -80,6 +84,19 @@
 
 .recent-text {
     color: #D2D1D1;
+}
+
+.brand-project-1, .brand-project-2, .brand-project-3, .brand-project-4 {
+    text-decoration: none;
+    color: #ffffff;
+    font: 16px 'OpenSans Semibold', sans-serif;
+    display: inline-block;
+    background-color: #575757;
+    height: 60px;
+    line-height: 60px;
+    width: 262px;
+    margin-top: 81px;
+    visibility: hidden;
 }
 
 .subscribe {

@@ -1,15 +1,20 @@
 .soc-icons {
     text-align: center;
-    margin: 40px 0;
+    margin: 67px 0 68px;
 }
 
 .soc-link {
     display: inline-block;
-    height: 70px;
-    line-height: 70px;
-    width: 70px;
+    height: 66px;
+    line-height: 66px;
+    width: 66px;
     border: 2px solid #4D4D4D;
     margin: 30px;
+}
+
+.soc-link:hover {
+    background-color: #55ACEE;
+    border: 2px solid #55ACEE;
 }
 
 footer {
