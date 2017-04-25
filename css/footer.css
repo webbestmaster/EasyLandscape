@@ -1,3 +1,17 @@
+.soc-icons {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.soc-link {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    border: 2px solid #4D4D4D;
+    margin: 30px;
+}
+
 footer {
     background-color: #3B3B3B;
 }
@@ -15,7 +29,7 @@ footer {
 
 .footer-location, .footer-company, .footer-support, .footer-minima {
     color: #ffffff;
-    text-align: center;
+    /*text-align: center;*/
     width: 238px;
 }
 
