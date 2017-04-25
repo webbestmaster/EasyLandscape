@@ -47,6 +47,7 @@
 .recent-work {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 100px;
 }
 
@@ -57,22 +58,26 @@
 
 .recent-work1 {
     background-image: url(../images/rec_w1.jpg);
-}
-
-.recent-work1:hover .brand-project-1, .recent-work2:hover .brand-project-2, .recent-work3:hover .brand-project-3, .recent-work4:hover .brand-project-4{
-    visibility: visible;
+    cursor: pointer;
 }
 
 .recent-work2 {
     background-image: url(../images/rec_w2.jpg);
+    cursor: pointer;
 }
 
 .recent-work3 {
     background-image: url(../images/rec_w3.jpg);
+    cursor: pointer;
 }
 
 .recent-work4 {
     background-image: url(../images/rec_w4.jpg);
+    cursor: pointer;
+}
+
+.recent-work1:hover .brand-project-1, .recent-work2:hover .brand-project-2, .recent-work3:hover .brand-project-3, .recent-work4:hover .brand-project-4{
+    visibility: visible;
 }
 
 .recent-title {
@@ -100,6 +105,8 @@
 }
 
 .subscribe {
+    margin: 0 auto;
+    text-align: center;
     background-color: #F5F5F5;
     padding: 94px;
 }
